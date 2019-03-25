@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+body {
+    background: url(fondo.jpg);
+    background-attachment: fixed;
+}
+
+.titulo{
+    font-size: 500%;
+    color: yellowgreen;
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.boton1{
+    background-color:yellowgreen;
+    padding: 10px; 
+    border: 10px;
+    box-shadow: 10px 10px 10px black;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    font-family: Impact;
+    border-radius: 20%;
+    margin: 2px;
+}
+.botonselec{
+    color:white;
+}
+a{
+    text-decoration: none
+}
+
+.cuadrohome{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffffb6;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Bitter', serif;
+}
+.cuadroabout{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffb6;
+    border-radius: 10%;
+    padding: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Bitter', serif;
+}
+
+.cuadrorules{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffb6;
+    border-radius: 10%;
+    padding: 100px;
+    font-family: 'Bitter', serif;
+}
+
+.cuadroformulario{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffffb6;
+    border-radius: 10%;
+    padding: 10px;
+    font-family: 'Bitter', serif;
+}
+
+.cuadroshow{
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffffb6;
+    border-radius: 10%;
+    padding: 20px;
+    font-family: 'Bitter', serif;
+}
+
+h2{
+    display: flex;
+    justify-content: center;  
+}
+p{
+   text-align: center;
+}
+.i1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    margin-bottom: 60px;
+}
+.subtitulo{
+    z-index:100;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center; 
+    position: relative;
+    top: 55px;
+}
+.subtitulo2{
+    z-index:100;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.letras{
+    list-style: lower-alpha;  
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px; 
+    margin: 20px;
+}
+
+th, td{
+    border: solid 1px black;
+}
+
+.p2{
+    display: flex;
+    justify-content: left; 
+    padding-bottom: 10px;
+}
+.encab{
+    background-color: blueviolet;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.f1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fespecial{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  
+    
+}
+.colegios{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.botoninicio{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    background-color:yellowgreen;
+    padding: 10px; 
+    box-shadow: 10px 10px 10px black;
+    font-size: 25px;
+    position: relative;
+    top: 30px;
+    left: 45%;
+    font-family: Impact;
+    border-radius: 20%;
+    margin: 2px 
+
+}.botonvolver{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    background-color:yellowgreen;
+    padding: 10px; 
+    box-shadow: 10px 10px 10px black;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 45%;
+    font-family: Impact;
+    border-radius: 20%;
+    margin: 2px 
+}
+
+.tablacentro{
+    display: flex;
+    justify-content: center;
+}
+
+.letrashow{
+    color: black;
+       display: flex;
+       justify-content: center;
+       position:relative;
+       top: 10px;
+
+    }
+
+    .cuadrocalendario{
+        position: relative;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffffb6;
+        border-radius: 3%;
+        padding: 50px;
+        font-family: 'Bitter', serif;
+    }
+
+
+.Logo3{
+    -webkit-transition: all 30s ease-out;
+    -webkit-transform: rotate(5turn);
+        }
+
